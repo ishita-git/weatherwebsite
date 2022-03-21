@@ -77,17 +77,3 @@ h1.temp{
     margin-bottom: 0.5em;
 }
 
-.weather.loading{
-    visibility: hidden;
-    max-height: 20px;
-    position: relative;
-}
-
-.weather.loading:after{
-    visibility: visible;
-    content: "Loading...";
-    color:aliceblue;
-    position: absolute;
-    top: 0;
-    left: 20px;
-}
